@@ -86,3 +86,4 @@ console.log(fruitVeg);
 console.log(fruits.slice(1,3));
 // splice method change in array( add, remove, replace)
 
+
