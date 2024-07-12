@@ -59,3 +59,16 @@ for(let i=0; i<items.length; i++){
     items[i] -= offer;
     console.log(`Value after offer: ${items[i]}`);
 }
+// Array methods
+//push( ) add to end
+// pop() delete from the end and return
+// toString(): converts array to string 
+//2 types of methods. 1 make changes 1 cannnot
+
+let fruits=["Apple", "Bnanas", "Guava", "lichi", "Peach"];
+console.log(fruits);
+fruits.push("Mangoes");// change in orignal array
+console.log(fruits);
+fruits.pop();
+fruits.pop();
+console.log(fruits);
