@@ -27,20 +27,16 @@ const product={
 product["name"]=  "red pen";
 
 console.log(product["name"]);
-// console.log(product);
-// const profile={
-//     name:"Shradha Khapra",
-//     follower: 596,
-//     following: 4,
-//     post:85
+console.log(product);
+const profile={
+    name:"Maha Zainab",
+    follower: 596,
+    following: 4,
+    post:85
 
-// };
-// console.log(profile.name);
-// //typeof(product);
-// //typeof age;
-// console.log(typeof profile.name)
+};
+console.log(profile.name);
+typeof(product);
+typeof age;
+console.log(typeof profile.name)
 // ctrl+/ 
-/**
- * kjrgk
- * kjdgrjk
- */
