@@ -70,5 +70,13 @@ console.log(fruits);
 fruits.push("Mangoes");// change in orignal array
 console.log(fruits);
 fruits.pop();
-fruits.pop();
+let deleteFruit=fruits.pop();
 console.log(fruits);
+console.log(deleteFruit);
+// toString but do not change in orignal array
+console.log(fruits.toString());
+// concat method, join strings and return result but does not change in orignal string
+let veges=["Potatos", "Cucmber", "Spinch"];
+let fruitVeg=fruits.concat(veges, marks);
+console.log(fruitVeg);
+
