@@ -19,10 +19,10 @@ for(let val of fruits){
 
 //     console.log("Hello");
 // }
-// const prod = { 0: 1, b: 2, c: 3 };
-// for (const property in object) {
-//   console.log(`${property}: ${object[property]}`);
-// }
+const prod = { 0: 1, b: 2, c: 3 };
+for (const property in object) {
+  console.log(`${property}: ${object[property]}`);
+}
 
 // let count =1;
 // while(count<5){
