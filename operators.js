@@ -52,10 +52,10 @@ console.log(a);
  * <=
  * 
  */
-// console.log("a==b: ", a==b);
-// console.log("a!=b: ", a!=b);
-// console.log("a===b: ", a===b);
-// console.log("a!==b: ", a!==b);
+console.log("a==b: ", a==b);
+console.log("a!=b: ", a!=b);
+console.log("a===b: ", a===b);
+console.log("a!==b: ", a!==b);
 
 let x=5;
 let y="5";
