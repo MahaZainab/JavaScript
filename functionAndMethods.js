@@ -15,3 +15,14 @@ function myFunction(){
 // 2. function call/ function invoke
 myFunction();
 //functions reduce redundancy
+// function input is parameter(function definition)/argument (function call)
+//  Nan not a number
+function sum( a, b){
+    //console.log(a+b);
+    let s= a+b;
+    return s;
+    // return only one value
+}
+sum(154,560);
+let val= sum(3,66);
+console.log(`sum is ${val}`);
