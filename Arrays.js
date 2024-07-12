@@ -36,3 +36,11 @@ for(let mark of marks){
 for(let mark in marks){
     console.log(mark);
 }
+// Example 
+// average of marks
+let sum=0;
+for(let mark of marks){
+    sum+=mark;
+}
+let avg=sum/marks.length;
+console.log(`Average marks of class: ${avg}`);
