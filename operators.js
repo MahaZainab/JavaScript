@@ -34,10 +34,10 @@ console.log("a++: ", a++);//6 7
  * -= a=a-4
  * In class all arithmetic operators will be used to as a assignment operators
  */
-// a=a+4;
-// a += 4;
-// a+=4;
-// console.log(a);
+a=a+4;
+a += 4;
+a+=4;
+console.log(a);
 //Comparison Operators
 /**
  * return true or false
