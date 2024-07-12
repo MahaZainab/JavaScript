@@ -12,3 +12,10 @@ console.log(typeof marks);
 let student1=["Asad",24,85];
 console.log(student1);
 console.log(typeof student1);
+// Property of length
+console.log("Length of marks: ", marks.length);
+// it is also an object.
+// it works like key-value pair, however keys are indicies
+console.log("",typeof marks);
+// Array Indices
+// arr[0]
