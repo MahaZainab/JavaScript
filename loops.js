@@ -10,10 +10,10 @@ while(i<100){
     console.log("Hello");
     i++;
 }
-// let fruits=["Papaya","Apple","Mangoes", "Bnanas"];
-// for(let val of fruits){
-//     console.log(val);
-// }
+let fruits=["Papaya","Apple","Mangoes", "Bnanas"];
+for(let val of fruits){
+    console.log(val);
+}
 //let array = [1, 2, 3, 4]; for (let index in array) { console.log(array[index]); }
 // for(let i=0; i<5; i++){
 
