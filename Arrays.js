@@ -44,3 +44,18 @@ for(let mark of marks){
 }
 let avg=sum/marks.length;
 console.log(`Average marks of class: ${avg}`);
+// Another example to give offer on items
+let items= [250, 645, 300, 900, 50];
+//using for of loop
+let i=0
+for (let item of items){
+    let offer= item/10;
+    items[i]=items[i]-offer;
+    console.log(`Value after offer: ${items[i]}`);
+    i++;
+}
+for(let i=0; i<items.length; i++){
+    let offer= items[i]/10;
+    items[i] -= offer;
+    console.log(`Value after offer: ${items[i]}`);
+}
