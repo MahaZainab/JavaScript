@@ -82,14 +82,14 @@ console.log(cond1 && cond2);
  * else if statement
  * if(){} else if(){} else{}
  */
-// let age=25;
-// if(age>18){
-//     console.log("You can vote");
-// }
-// let age=19;
-// let decision= age>18? "You can vote":"you cannot vote";
-// console.log(decision)
-let age=19;
+let age=25;
+if(age>18){
+    console.log("You can vote");
+}
+//let age=19;
+let decision= age>18? "You can vote":"you cannot vote";
+console.log(decision)
+//let age=19;
 age>18? console.log("You can vote"):console.log("you cannot vote");
 //Ternary operators
 /**
