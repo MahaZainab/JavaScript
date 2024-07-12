@@ -18,4 +18,9 @@ console.log("Length of marks: ", marks.length);
 // it works like key-value pair, however keys are indicies
 console.log("",typeof marks);
 // Array Indices
-// arr[0]
+// arr[0], arr[1], arr[2]
+// the index that does not exist in an array ,  answer would be undefined
+// can change in array
+//Means strings are immutable(cannot change) and arrays are mutable(can change)
+marks[2]=66;
+
