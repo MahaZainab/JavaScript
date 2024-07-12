@@ -106,8 +106,8 @@ switch(age){
         break;
     case 60:
 }
-// let fruit= prompt("Enter fruit name: ");
-//console.log(fruit);
-// alert("Hello"); // sinle time popup
-// let username= prompt("Enter username");
-// console.log("username", username);
+let fruit= prompt("Enter fruit name: ");
+console.log(fruit);
+alert("Hello"); // sinle time popup
+let username= prompt("Enter username");
+console.log("username", username);
