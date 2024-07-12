@@ -23,4 +23,16 @@ console.log("",typeof marks);
 // can change in array
 //Means strings are immutable(cannot change) and arrays are mutable(can change)
 marks[2]=66;
-
+// loops an array
+// iterable(strings, arrays, objects)
+// for loop we use length prop
+for(let i=0; i<marks.length; i++){
+    console.log(marks[i]);
+}
+// prefer for of loop but also can use for in loop
+for(let mark of marks){
+    console.log(mark);
+}
+for(let mark in marks){
+    console.log(mark);
+}
