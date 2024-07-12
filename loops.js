@@ -24,25 +24,25 @@ for (const property in object) {
   console.log(`${property}: ${object[property]}`);
 }
 
-// let count =1;
-// while(count<5){
-//     console.log(count);
-//     count++;
-// }
-// // for of loops
-// // help to iterate through strings and arrays
-// let username= "Maha Zainab"
-// let size=0;
-// for(let val of username){
-//     console.log(val);
-//     size++;
-// }
-// console.log(size);
+let count =1;
+while(count<5){
+    console.log(count);
+    count++;
+}
+// for of loops
+// help to iterate through strings and arrays
+let username= "Maha Zainab"
+let size=0;
+for(let val of username){
+    console.log(val);
+    size++;
+}
+console.log(size);
 
-// //Game to ask from user to enter a correct number
-// let num=4;
-// //val=prompt("Guss a number");
-// // while(val!=num){
-// //     val=prompt("Wrong number. Guess again");
-// // }
-// // console.log("Bravo");
+//Game to ask from user to enter a correct number
+let num=4;
+val=prompt("Guss a number");
+while(val!=num){
+    val=prompt("Wrong number. Guess again");
+}
+console.log("Bravo");
