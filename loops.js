@@ -5,11 +5,11 @@
 for(let i=0; i<100; i++){
  console.log("Maha Zainab");   
 }
-// let i=0;
-// while(i<100){
-//     console.log("Hello");
-//     i++;
-// }
+let i=0;
+while(i<100){
+    console.log("Hello");
+    i++;
+}
 // let fruits=["Papaya","Apple","Mangoes", "Bnanas"];
 // for(let val of fruits){
 //     console.log(val);
