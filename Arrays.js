@@ -79,4 +79,10 @@ console.log(fruits.toString());
 let veges=["Potatos", "Cucmber", "Spinch"];
 let fruitVeg=fruits.concat(veges, marks);
 console.log(fruitVeg);
+//unshift add at the start
+// shift() delete from the start
+// slice  return a piece of an array , not change the orignal array
+// ending index not inclusive
+console.log(fruits.slice(1,3));
+// splice method change in array( add, remove, replace)
 
