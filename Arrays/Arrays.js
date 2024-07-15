@@ -92,5 +92,29 @@ console.log(fruits.toString());
 // // ending index not inclusive
 console.log(fruits.slice(1,3));
 // // splice method change in array( add, remove, replace)
+// Array Initialization
+let numbers = [1, 2, 3, 4, 5];
+console.log("Original numbers:", numbers);
+
+// Removing elements
+let removed = numbers.splice(2, 2); // Removes items at index 2 and 3 (3, 4)
+console.log("After removing:", numbers); // [1, 2, 5]
+console.log("Removed elements:", removed); // [3, 4]
+
+// Adding elements
+numbers.splice(2, 0, 3, 4); // Adds 3 and 4 at index 2
+console.log("After adding:", numbers); // [1, 2, 3, 4, 5]
+
+// Replacing elements
+numbers.splice(1, 2, 'a', 'b'); // Replaces 2, 3 with 'a', 'b'
+console.log("After replacing:", numbers); // [1, 'a', 'b', 4, 5]
+
+// Complex operations: Remove and add simultaneously
+//let fruits = ["Apple", "Banana", "Cherry", "Date"];
+console.log("Original fruits:", fruits);
+
+// Replacing 'Banana' with 'Blueberry' and 'Blackberry'
+fruits.splice(1, 1, 'Blueberry', 'Blackberry');
+console.log("After complex operation:", fruits); // ["Apple", "Blueberry", "Blackberry", "Cherry", "Date"]
 
 
