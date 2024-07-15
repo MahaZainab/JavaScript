@@ -18,6 +18,7 @@ myFunction();
 // function input is parameter(function definition)/argument (function call)
 //  Nan not a number
 function sum( a, b){
+    // local variable block scope
     //console.log(a+b);
     let s= a+b;
     return s;
@@ -26,3 +27,11 @@ function sum( a, b){
 sum(154,560);
 let val= sum(3,66);
 console.log(`sum is ${val}`);
+/** Arrow funciton
+ * compact for
+ * 
+ */
+const arrowSum=(a,b)=>{
+    console.log(a,b);
+}
+console.log(arrowSum(2,4));
