@@ -34,3 +34,7 @@ console.dir(document.body.childNodes[3].innerText="abc");
 //document.body.childNodes[3].innerText="abc";
 // when we do not want to change our html or css but want to make changes it is called dynamic change
 // those dynamic changes are possible because of DOM
+
+
+// DOM Manipulation
+// If we add script tag in the start it will not be null. this is why we add it at the end
