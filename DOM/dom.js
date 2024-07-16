@@ -24,7 +24,10 @@ window.console.log("Hello again")
 // alert and prompt are part of window object
 // Document object model
 /** All HTML tags convert to object(document) in JS code */
-// When we load the page html page is converted to object
+// When we load the page html page is converted into object named document in window object.
+// print window.object
+// console.log print dom elements
+// console.dir print documents propertise and methods
 //console.dir(window); // print methods and propertise
 console.log(window.document);
 console.dir(window.document);
