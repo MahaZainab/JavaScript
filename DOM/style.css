@@ -6,7 +6,12 @@ h1{
 body{
     background-color: beige;
 }
-button{
+#clickBtn{
     background-color: blueviolet;
     color:aliceblue;
+}
+.para{
+    color:brown;
+    font-size: medium;
+    
 }
