@@ -95,4 +95,6 @@ console.dir(div.innerHTML);
 let heading=document.querySelector("h1");
 heading.innerText="New Heading";
 heading.innerHTML="<i>New Heading</i>"
-
+//  * innerText: returns  the text content of the element and its childern
+heading.textContent
+//
