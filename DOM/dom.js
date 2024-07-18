@@ -89,6 +89,10 @@ console.dir(div);
 console.dir(div.innerText);
 //also return html content
 console.dir(div.innerHTML);
-
-
+// we  can also set this value
+//div.innerText="abcd";
+//div.innerHTML="<div>Inner Div</div>"
+let heading=document.querySelector("h1");
+heading.innerText="New Heading";
+heading.innerHTML="<i>New Heading</i>"
 
