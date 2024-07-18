@@ -83,18 +83,31 @@
 // //console.dir(allElements.firstChild);
 // // we use it for navigation
 //  * innerText: returns  the text content of the element and its childern
-let div=document.querySelector("div");
-console.dir(div);
-// pure text
-console.dir(div.innerText);
-//also return html content
-console.dir(div.innerHTML);
-// we  can also set this value
-//div.innerText="abcd";
-//div.innerHTML="<div>Inner Div</div>"
-let heading=document.querySelector("h1");
-heading.innerText="New Heading";
-heading.innerHTML="<i>New Heading</i>"
-//  * innerText: returns  the text content of the element and its childern
-heading.textContent
-//
+// let div=document.querySelector("div");
+// console.dir(div);
+// // pure text
+// console.dir(div.innerText);
+// //also return html content
+// console.dir(div.innerHTML);
+// // we  can also set this value
+// //div.innerText="abcd";
+// //div.innerHTML="<div>Inner Div</div>"
+// let heading=document.querySelector("h1");
+// heading.innerText="New Heading";
+// heading.innerHTML="<i>New Heading</i>"
+// //  * innerText: returns  the text content of the element and its childern
+// heading.textContent
+
+// Now lets see Attributes and style
+// getAttribute(attr) get attribute value
+// setAttribute(attr, value) to set the attribute value
+// Attribute gives additional values to our tags
+let div= document.querySelector("div");
+console.log(div);
+let id= div.getAttribute("id");
+console.log(id);
+div.setAttribute("id", "heading");
+console.log(div);
+//return inline style
+console.log(div.style);
+div.style.background="red";
