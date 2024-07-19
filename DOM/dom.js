@@ -29,19 +29,22 @@
 // // console.log print dom elements
 // // console.dir print document object // print documents propertise and methods
 // //console.dir(window); // print methods and propertise
-// console.log(window.document);
+console.dir(window.document);
 // console.dir(window.document);
+console.log(document.body.childNodes[5]);
 // // the method to access html into js is actually a dom
-// console.dir(document.body.childNodes[3].innerText="abcd");
+console.dir(document.body.childNodes[5].innerText="abcd");
 // // js will make dynamic changes
-// //document.body.childNodes[3].innerText="abc";
+
+
+document.body.childNodes[3].innerText="abc";
 // // when we do not want to change our html or css but want to make changes it is called dynamic change
 // // those dynamic changes are possible because of DOM
 // // dynamic changes means when a user do some thing we make changes
 // //document.body.style.background="green";
 
 // // DOM Manipulation
-// // If we add script tag in the start it will not be null. this is why we add it at the end
+// // If we add script tag in the start it will be null. this is why we add it at the end
 // // Now we will learn how to select an element
 // // id is represented by  #
 // /**
@@ -57,13 +60,17 @@
 //  * 5. document.querySelectorAll("myId/myClass/tag")
 //  * return a NodeList 
 //  *  */
-// let heading = document.getElementById("heading");
-// console.dir(heading);
+let heading = document.getElementById("heading");
+console.dir(heading);
+let para= document.getElementsByClassName(".para");
+console.log(para);
+let p=document.getElementsByTagName("p");
+console.log(p);
 // let firsttag=document.querySelector("h4");
 // console.dir(firsttag);
 // let allTags= document.querySelectorAll("h4");
 // console.dir(allTags);
-// let firstElement=document.querySelector(".para");
+// let firstElement=document.query`Selector(".para");
 // console.dir(firstElement);
 // let allElements= document.querySelectorAll(".para");
 // console.dir(allElements);
@@ -102,12 +109,20 @@
 // getAttribute(attr) get attribute value
 // setAttribute(attr, value) to set the attribute value
 // Attribute gives additional values to our tags
-let div= document.querySelector("div");
-console.log(div);
-let id= div.getAttribute("id");
-console.log(id);
-div.setAttribute("id", "heading");
-console.log(div);
-//return inline style
-console.log(div.style);
-div.style.background="red";
+// let div= document.querySelector("div");
+// console.log(div);
+// let id= div.getAttribute("id");
+// console.log(id);
+// div.setAttribute("id", "heading");
+// console.log(div);
+// //return inline style
+// console.log(div.style);
+// div.style.background="red";
+/**
+ * Insert Element
+ * node.append(el)
+ * node.preappend(el)
+ * node.before(el)
+ * node.after(el)
+ * node.remove()
+ */
