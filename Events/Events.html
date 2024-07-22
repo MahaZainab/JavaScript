@@ -28,6 +28,14 @@
           }
         });
       </script>
+      <!-- Preventing Default Actions-->
+      <a href="https://example.com" id="myLink">Go to example.com</a>
+      <script>
+        document.getElementById('myLink').addEventListener('click', function(event) {
+          event.preventDefault();
+          alert('Link click prevented!');
+        });
+      </script>      
       
     
     
