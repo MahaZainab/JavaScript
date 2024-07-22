@@ -6,6 +6,13 @@
     <title>Events in JS</title>
 </head>
 <body>
+    <button id="myButton">Click me</button>
+    <script>
+    document.getElementById('myButton').addEventListener('click', function() {
+        alert('Button clicked!');
+    });
+    </script>
+
     <button>Change color</button>
     <!-- Inline Events-->
     <button onclick="bgChange()">Press me</button>
