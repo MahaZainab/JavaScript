@@ -35,7 +35,19 @@
           event.preventDefault();
           alert('Link click prevented!');
         });
-      </script>      
+      </script>    
+      <!-- Custome Events-->
+      <div id="myDiv">Hello</div>
+      <script>
+        var myEvent = new CustomEvent('myCustomEvent', { detail: { message: 'Hello, world!' } });
+      
+        document.getElementById('myDiv').addEventListener('myCustomEvent', function(event) {
+          alert(event.detail.message);
+        });
+      
+        document.getElementById('myDiv').dispatchEvent(myEvent);
+      </script>
+        
       
     
     
