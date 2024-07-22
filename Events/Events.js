@@ -30,3 +30,8 @@ btn.addEventListener("click",
   },
   { signal: controller.signal } // pass an AbortSignal to this handler
 );
+function bgChange() {
+    const rndCol = `rgb(${random(255)} ${random(255)} ${random(255)})`;
+    document.body.style.backgroundColor = rndCol;
+  }
+  
