@@ -9,6 +9,16 @@ A video is played, paused, or ends.
 An error occurs.
  * 
  *  */ 
+// Sytax
+//element.addEventListener(event, function, useCapture);
+/***
+ * element: The HTML element to which the event listener is attached.
+event: The type of event (e.g., 'click', 'keydown').
+function: The function to execute when the event occurs.
+useCapture (optional): Boolean value that specifies whether the event should be captured or bubbled. Defaults to false.
+ * 
+ */
+
 const btn = document.querySelector("button");
 
 function random(number) {
