@@ -16,6 +16,21 @@
     <button>Change color</button>
     <!-- Inline Events-->
     <button onclick="bgChange()">Press me</button>
+    <ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+      <script>
+        document.getElementById('myList').addEventListener('click', function(event) {
+          if (event.target.tagName === 'LI') {
+            alert('List item clicked: ' + event.target.textContent);
+          }
+        });
+      </script>
+      
+    
+    
     <script src="Events.js"></script>
 </body>
 </html>
