@@ -21,3 +21,12 @@ btn.addEventListener("click", () => {
 });
 
 // Removing Listener
+const controller = new AbortController();
+
+btn.addEventListener("click",
+  () => {
+    const rndCol = `rgb(${random(255)} ${random(255)} ${random(255)})`;
+    document.body.style.backgroundColor = rndCol;
+  },
+  { signal: controller.signal } // pass an AbortSignal to this handler
+);
